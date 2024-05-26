@@ -11,7 +11,7 @@ export default function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
 
-  const url = "http://localhost:3000"
+  const url = "https://blackcoffer-server-israk.vercel.app"
 
   useEffect(() => {
     axios.get<DataPoint[]>(url)
