@@ -2,7 +2,7 @@ import { DataPoint } from '@/lib/type'
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
 
-export default function KeyMetrics({ topics, sectors, regions, counties, cities, pests, sources, swots, swotsName, setData, data, dataForFilter }: {
+export default function KeyMetrics({ topics, sectors, regions, counties, cities, pests, sources, swots, swotsName, setData, dataForFilter }: {
     topics: string[], sectors: string[], regions: string[], counties: string[], cities: string[], pests: string[], sources: string[], swots: number[], swotsName: string[], setData: (data: DataPoint[]) => void, data: DataPoint[], dataForFilter: DataPoint[]
 }) {
 
